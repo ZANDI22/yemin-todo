@@ -1,6 +1,7 @@
 package com.yemin.todo.todo.entity;
 
 import com.yemin.todo.base.entity.BaseEntity;
+import com.yemin.todo.category.entity.Category;
 import com.yemin.todo.member.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -36,4 +37,7 @@ public class Todo extends BaseEntity {
     @JoinColumn(name = "member_id")
     private Member member;
 
+    @ManyToOne(fetch = LAZY)
+    @JoinColumn(name = "category_id")
+    private Category category;
 }
