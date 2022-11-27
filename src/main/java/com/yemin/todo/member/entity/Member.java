@@ -22,6 +22,7 @@ public class Member extends BaseEntity {
     private String email;
     private String password;
     private String nickname;
+    private String profile;
 
     @Enumerated(EnumType.STRING)
     private MemberRole memberRole;

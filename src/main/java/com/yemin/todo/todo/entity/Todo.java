@@ -29,7 +29,6 @@ public class Todo extends BaseEntity {
     private TodoType bookmark; // 즐겨찾기
     private TodoType myDay; // 오늘 하루
 
-    private LocalDateTime startDate; // 기한 시작일
     private LocalDateTime endDate; // 기한 마감일
     private LocalDateTime finishDate; // 완료일
 
