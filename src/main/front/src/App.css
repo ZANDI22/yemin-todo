@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Inter var";
     font-weight: 100 900;
     font-display: block;
@@ -14,7 +14,7 @@
     font-style: italic;
     font-named-instance: "Italic";
     src: url("./fonts/Inter-italic-latin.var.woff2") format("woff2");
-}
+} */
 
 * {
     padding: 0;
